@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BB6A744F2DA77D2C00DE06C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6A74392DA77D2B00DE06C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6A74402DA77D2B00DE06C4;
+			remoteInfo = CRMAssistant;
+		};
+		BB6A74592DA77D2C00DE06C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6A74392DA77D2B00DE06C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6A74402DA77D2B00DE06C4;
+			remoteInfo = CRMAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB6A74412DA77D2B00DE06C4 /* CRMAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRMAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6A744E2DA77D2C00DE06C4 /* CRMAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6A74582DA77D2C00DE06C4 /* CRMAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BB6A74432DA77D2B00DE06C4 /* CRMAssistant */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CRMAssistant;
+			sourceTree = "<group>";
+		};
+		BB6A74512DA77D2C00DE06C4 /* CRMAssistantTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CRMAssistantTests;
+			sourceTree = "<group>";
+		};
+		BB6A745B2DA77D2C00DE06C4 /* CRMAssistantUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CRMAssistantUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6A743E2DA77D2B00DE06C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6A744B2DA77D2C00DE06C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6A74552DA77D2C00DE06C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB6A74382DA77D2B00DE06C4 = {
+			isa = PBXGroup;
+			children = (
+				BB6A74432DA77D2B00DE06C4 /* CRMAssistant */,
+				BB6A74512DA77D2C00DE06C4 /* CRMAssistantTests */,
+				BB6A745B2DA77D2C00DE06C4 /* CRMAssistantUITests */,
+				BB6A74422DA77D2B00DE06C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6A74422DA77D2B00DE06C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6A74412DA77D2B00DE06C4 /* CRMAssistant.app */,
+				BB6A744E2DA77D2C00DE06C4 /* CRMAssistantTests.xctest */,
+				BB6A74582DA77D2C00DE06C4 /* CRMAssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB6A74402DA77D2B00DE06C4 /* CRMAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6A74622DA77D2C00DE06C4 /* Build configuration list for PBXNativeTarget "CRMAssistant" */;
+			buildPhases = (
+				BB6A743D2DA77D2B00DE06C4 /* Sources */,
+				BB6A743E2DA77D2B00DE06C4 /* Frameworks */,
+				BB6A743F2DA77D2B00DE06C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BB6A74432DA77D2B00DE06C4 /* CRMAssistant */,
+			);
+			name = CRMAssistant;
+			packageProductDependencies = (
+			);
+			productName = CRMAssistant;
+			productReference = BB6A74412DA77D2B00DE06C4 /* CRMAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB6A744D2DA77D2C00DE06C4 /* CRMAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6A74652DA77D2C00DE06C4 /* Build configuration list for PBXNativeTarget "CRMAssistantTests" */;
+			buildPhases = (
+				BB6A744A2DA77D2C00DE06C4 /* Sources */,
+				BB6A744B2DA77D2C00DE06C4 /* Frameworks */,
+				BB6A744C2DA77D2C00DE06C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6A74502DA77D2C00DE06C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB6A74512DA77D2C00DE06C4 /* CRMAssistantTests */,
+			);
+			name = CRMAssistantTests;
+			packageProductDependencies = (
+			);
+			productName = CRMAssistantTests;
+			productReference = BB6A744E2DA77D2C00DE06C4 /* CRMAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB6A74572DA77D2C00DE06C4 /* CRMAssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6A74682DA77D2C00DE06C4 /* Build configuration list for PBXNativeTarget "CRMAssistantUITests" */;
+			buildPhases = (
+				BB6A74542DA77D2C00DE06C4 /* Sources */,
+				BB6A74552DA77D2C00DE06C4 /* Frameworks */,
+				BB6A74562DA77D2C00DE06C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6A745A2DA77D2C00DE06C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BB6A745B2DA77D2C00DE06C4 /* CRMAssistantUITests */,
+			);
+			name = CRMAssistantUITests;
+			packageProductDependencies = (
+			);
+			productName = CRMAssistantUITests;
+			productReference = BB6A74582DA77D2C00DE06C4 /* CRMAssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6A74392DA77D2B00DE06C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					BB6A74402DA77D2B00DE06C4 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					BB6A744D2DA77D2C00DE06C4 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = BB6A74402DA77D2B00DE06C4;
+					};
+					BB6A74572DA77D2C00DE06C4 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = BB6A74402DA77D2B00DE06C4;
+					};
+				};
+			};
+			buildConfigurationList = BB6A743C2DA77D2B00DE06C4 /* Build configuration list for PBXProject "CRMAssistant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB6A74382DA77D2B00DE06C4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BB6A74422DA77D2B00DE06C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6A74402DA77D2B00DE06C4 /* CRMAssistant */,
+				BB6A744D2DA77D2C00DE06C4 /* CRMAssistantTests */,
+				BB6A74572DA77D2C00DE06C4 /* CRMAssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6A743F2DA77D2B00DE06C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6A744C2DA77D2C00DE06C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6A74562DA77D2C00DE06C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6A743D2DA77D2B00DE06C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6A744A2DA77D2C00DE06C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6A74542DA77D2C00DE06C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB6A74502DA77D2C00DE06C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6A74402DA77D2B00DE06C4 /* CRMAssistant */;
+			targetProxy = BB6A744F2DA77D2C00DE06C4 /* PBXContainerItemProxy */;
+		};
+		BB6A745A2DA77D2C00DE06C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6A74402DA77D2B00DE06C4 /* CRMAssistant */;
+			targetProxy = BB6A74592DA77D2C00DE06C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB6A74602DA77D2C00DE06C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB6A74612DA77D2C00DE06C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB6A74632DA77D2C00DE06C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sable.CRMAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB6A74642DA77D2C00DE06C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sable.CRMAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB6A74662DA77D2C00DE06C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sable.CRMAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CRMAssistant";
+			};
+			name = Debug;
+		};
+		BB6A74672DA77D2C00DE06C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sable.CRMAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRMAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CRMAssistant";
+			};
+			name = Release;
+		};
+		BB6A74692DA77D2C00DE06C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sable.CRMAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRMAssistant;
+			};
+			name = Debug;
+		};
+		BB6A746A2DA77D2C00DE06C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sable.CRMAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRMAssistant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6A743C2DA77D2B00DE06C4 /* Build configuration list for PBXProject "CRMAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6A74602DA77D2C00DE06C4 /* Debug */,
+				BB6A74612DA77D2C00DE06C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6A74622DA77D2C00DE06C4 /* Build configuration list for PBXNativeTarget "CRMAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6A74632DA77D2C00DE06C4 /* Debug */,
+				BB6A74642DA77D2C00DE06C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6A74652DA77D2C00DE06C4 /* Build configuration list for PBXNativeTarget "CRMAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6A74662DA77D2C00DE06C4 /* Debug */,
+				BB6A74672DA77D2C00DE06C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6A74682DA77D2C00DE06C4 /* Build configuration list for PBXNativeTarget "CRMAssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6A74692DA77D2C00DE06C4 /* Debug */,
+				BB6A746A2DA77D2C00DE06C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB6A74392DA77D2B00DE06C4 /* Project object */;
+}
